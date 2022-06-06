@@ -1,0 +1,22 @@
+{
+    "os": "Darwin-21.1.0-x86_64-i386-64bit",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-06-06T18:48:52.730898",
+    "startedAt": "2022-06-06T18:48:52.048145",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "rl_cuts.py",
+    "codePath": "project/rl_cuts.py",
+    "git": {
+        "remote": "git@github.com:Z-SB/Reinforcement-Learning.git",
+        "commit": "b9ebca0f73a0ba8c420f55f4f0411ea17ad1a777"
+    },
+    "email": "bzh1907@gmail.com",
+    "root": "/Users/shibo/Documents/Reinforcement-Learning",
+    "host": "shibodeMacBook-Air.local",
+    "username": "shibo",
+    "executable": "/Users/shibo/opt/anaconda3/envs/rl_cut/bin/python"
+}
