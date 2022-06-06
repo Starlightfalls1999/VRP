@@ -187,8 +187,8 @@ if __name__ == "__main__":
 
     training = True
     explore = True
-    PATH = "models/cutom_config_best_model_1.pt"
-    # PATH = "models/hard_config_best_model3.pt"
+    PATH = "models/Shibo/cutom_config_best_model_1.pt"
+    # PATH = "models/Shibo/hard_config_best_model3.pt"
 
     # create env
     env = make_multiple_env(**custom_config)

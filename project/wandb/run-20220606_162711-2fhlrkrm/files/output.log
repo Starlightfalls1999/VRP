@@ -1,0 +1,162 @@
+loading training instances, dir instances/randomip_n60_m60 idx 0
+loading training instances, dir instances/randomip_n60_m60 idx 1
+loading training instances, dir instances/randomip_n60_m60 idx 2
+loading training instances, dir instances/randomip_n60_m60 idx 3
+loading training instances, dir instances/randomip_n60_m60 idx 4
+loading training instances, dir instances/randomip_n60_m60 idx 5
+loading training instances, dir instances/randomip_n60_m60 idx 6
+loading training instances, dir instances/randomip_n60_m60 idx 7
+loading training instances, dir instances/randomip_n60_m60 idx 8
+loading training instances, dir instances/randomip_n60_m60 idx 9
+loading training instances, dir instances/randomip_n60_m60 idx 10
+loading training instances, dir instances/randomip_n60_m60 idx 11
+loading training instances, dir instances/randomip_n60_m60 idx 12
+loading training instances, dir instances/randomip_n60_m60 idx 13
+loading training instances, dir instances/randomip_n60_m60 idx 14
+loading training instances, dir instances/randomip_n60_m60 idx 15
+loading training instances, dir instances/randomip_n60_m60 idx 16
+loading training instances, dir instances/randomip_n60_m60 idx 17
+loading training instances, dir instances/randomip_n60_m60 idx 18
+loading training instances, dir instances/randomip_n60_m60 idx 19
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+episode:  0
+sum reward:  0.4771332874588552
+Loss:  -637.0570002794266
+rl_cuts.py:133: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  /Users/distiller/project/pytorch/torch/csrc/utils/tensor_new.cpp:210.)
+  actions = torch.LongTensor(actions)
+episode:  1
+sum reward:  0.059044907496627275
+Loss:  -1048.361437483144
+episode:  2
+sum reward:  0.06955561929589749
+Loss:  -346.30523910405
+episode:  3
+sum reward:  0.2728014378410535
+Loss:  -267.546489238739
+episode:  4
+sum reward:  0.7077630298215354
+Loss:  -138.04808366298676
+episode:  5
+sum reward:  0.964995842096414
+Loss:  75.28701663017273
+episode:  6
+sum reward:  0.624864167218675
+Loss:  -437.4584856033325
+episode:  7
+sum reward:  0.7016703101312487
+Loss:  676.3272867202759
+episode:  8
+sum reward:  1.1619481483271556
+Loss:  -597.5142316818237
+episode:  9
+sum reward:  0.3792470687074001
+Loss:  962.2230968475342
+episode:  10
+sum reward:  0.7201404175552852
+Loss:  482.9066197872162
+episode:  11
+sum reward:  1.2037116561039056
+Loss:  268.69815838336945
+episode:  12
+sum reward:  1.3526268798445926
+Loss:  394.58550293322605
+episode:  13
+sum reward:  0.4315471380218696
+Loss:  -163.5593729019165
+episode:  14
+sum reward:  0.6982991830022911
+Loss:  -120.44950199127197
+episode:  15
+sum reward:  0.11534908186695247
+Loss:  257.6444677710533
+episode:  16
+sum reward:  0.702260854195174
+Loss:  -21.95080041885376
+episode:  17
+sum reward:  0.604997117612811
+Loss:  353.02021408081055
+episode:  18
+sum reward:  0.19797872823414764
+Loss:  241.131272315979
+episode:  19
+sum reward:  0.9502730507042543
+Loss:  365.22894525527954
+episode:  20
+sum reward:  1.1153490818715
+Loss:  879.8892221450806
+episode:  21
+sum reward:  0.5345394247269724
+Loss:  -72.50448441505432
+episode:  22
+sum reward:  0.6049971176159943
+Loss:  860.2237242460251
+error in lp iteration
+episode:  23
+sum reward:  0.19797872823778562
+Loss:  234.55281590270724
+error in lp iteration
+episode:  24
+sum reward:  0.43154713800618083
+Loss:  3.593899726867676
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+error in lp iteration
+episode:  25
+sum reward:  0.033329920734104235
+Loss:  -167.15248358249664
+episode:  26
+sum reward:  0.2728014378410535
+Loss:  631.4029293656349
+Traceback (most recent call last):
+  File "rl_cuts.py", line 288, in <module>
+    wandb.log({"Discounted Reward": np.sum(returns)})
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 1548, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 1339, in _log
+    self._partial_history_callback(data, step, commit)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 1233, in _partial_history_callback
+    publish_step=not_using_tensorboard,
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 553, in publish_partial_history
+    self._publish_partial_history(partial_history)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 62, in _publish_partial_history
+    self._publish(rec)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

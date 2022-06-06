@@ -1,0 +1,42 @@
+loading training instances, dir instances/randomip_n60_m60 idx 0
+loading training instances, dir instances/randomip_n60_m60 idx 1
+loading training instances, dir instances/randomip_n60_m60 idx 2
+loading training instances, dir instances/randomip_n60_m60 idx 3
+loading training instances, dir instances/randomip_n60_m60 idx 4
+loading training instances, dir instances/randomip_n60_m60 idx 5
+loading training instances, dir instances/randomip_n60_m60 idx 6
+loading training instances, dir instances/randomip_n60_m60 idx 7
+loading training instances, dir instances/randomip_n60_m60 idx 8
+loading training instances, dir instances/randomip_n60_m60 idx 9
+loading training instances, dir instances/randomip_n60_m60 idx 10
+loading training instances, dir instances/randomip_n60_m60 idx 11
+loading training instances, dir instances/randomip_n60_m60 idx 12
+loading training instances, dir instances/randomip_n60_m60 idx 13
+loading training instances, dir instances/randomip_n60_m60 idx 14
+loading training instances, dir instances/randomip_n60_m60 idx 15
+loading training instances, dir instances/randomip_n60_m60 idx 16
+loading training instances, dir instances/randomip_n60_m60 idx 17
+loading training instances, dir instances/randomip_n60_m60 idx 18
+loading training instances, dir instances/randomip_n60_m60 idx 19
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+rl_cuts.py:133: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  /Users/distiller/project/pytorch/torch/csrc/utils/tensor_new.cpp:210.)
+  actions = torch.LongTensor(actions)
+episode:  0
+sum reward:  0.3792470686955767
+Loss:  794.3633263111115
+Traceback (most recent call last):
+  File "rl_cuts.py", line 239, in <module>
+    prob = actor.compute_prob(curr_constraints, available_cuts)
+  File "rl_cuts.py", line 115, in compute_prob
+    prob = torch.nn.functional.softmax(self.model(constraints, cuts), dim=-1)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "rl_cuts.py", line 91, in forward
+    A_embed = self.lstm1.forward(constraints)
+  File "rl_cuts.py", line 63, in forward
+    output, _ = self.lstm(inputs)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/shibo/opt/anaconda3/envs/rl_cut/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 762, in forward
+    self.dropout, self.training, self.bidirectional, self.batch_first)

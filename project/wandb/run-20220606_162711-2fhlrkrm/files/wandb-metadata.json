@@ -1,0 +1,22 @@
+{
+    "os": "Darwin-21.1.0-x86_64-i386-64bit",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-06-06T20:27:12.458195",
+    "startedAt": "2022-06-06T20:27:11.562975",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "rl_cuts.py",
+    "codePath": "project/rl_cuts.py",
+    "git": {
+        "remote": "git@github.com:Z-SB/VRP.git",
+        "commit": "0957ed946db8ba926998e818c0cb3393df16040f"
+    },
+    "email": "bzh1907@gmail.com",
+    "root": "/Users/shibo/Documents/VRP",
+    "host": "shibodeMacBook-Air.local",
+    "username": "shibo",
+    "executable": "/Users/shibo/opt/anaconda3/envs/rl_cut/bin/python"
+}

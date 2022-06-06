@@ -1,9 +1,9 @@
-# IEOR4575 Project
+# Summer Project VRP
 Instructor: Professor Shipra Agrawal\
 Assistants: Yunhao Tang, Abhi Gupta
 
 ## Installation
-The only dependency is gurobipy. You can install gurobipy into your `ieor4575` conda environment:
+The only dependency is gurobipy. You can install gurobipy into your conda environment:
 
 ```
 $ conda install -c gurobi gurobi
@@ -13,7 +13,7 @@ In addition, you need an academic license from gurobi. After getting the license
 
 (https://www.gurobi.com/downloads/end-user-license-agreement-academic/)
 
- In order to activate the license, you will need to run the **grbgetkey** command with the license key written there. After this step, you can use the `ieor4575` environment that you have used for labs to complete the class project.
+ In order to activate the license, you will need to run the **grbgetkey** command with the license key written there.
 
 ## WandB for Visualizaition
 Class labs have made extensive use of wandb to familiarize you with some great machine learning visualization tools. You are encouraged to use wandb in the development of this project. We will soon provide further information about leaderboard for the project.
