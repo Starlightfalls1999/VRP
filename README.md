@@ -1,2 +1,2 @@
 # VRP
-Record summer research work in Smart City Lab
+Record team work in Smart City Lab in summer 
