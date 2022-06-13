@@ -67,4 +67,4 @@ if __name__ == '__main__':
 			shared_count+= 1
 			print('num of instances generated:', shared_count)
 
-	create_new_env(0, n, m)
+	create_new_env(0, n=8, m=6)
